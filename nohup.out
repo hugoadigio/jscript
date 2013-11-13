@@ -1,0 +1,16 @@
+Servidor en puerto 8888
+Servidor en puerto 8888
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/favicon.ico metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/favicon.ico false
+/canvas.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/canvas.html true
+Leyendo del pipe 
+/js/canvas.js metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/js/canvas.js true
+Leyendo del pipe 
