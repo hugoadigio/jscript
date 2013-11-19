@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyAvK82M45KwB94CXM0Jtcxma1Qj1yIUFK0"
+      type="text/javascript"></script>
+    <script type="text/javascript">   
+        function load() {
+            if (GBrowserIsCompatible()) {
+                var map = new GMap2(document.getElementById("map"));
+                map.setCenter(new GLatLng(19.4002573, -99.2780776), 15);
+                map.addControl(new GMapTypeControl());
+                map.addControl(new GLargeMapControl());
+                map.addControl(new GScaleControl());
+                //map.addControl(new GOverviewMapControl());
+            }
+        }
+
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" align="center" style="width: 600px; height: 230px"></div>    
+  </body>
+</html>

@@ -9,6 +9,8 @@
             }
         </style>
         <script src="js/canvas.js"></script>
+    
+               
     </head>
     <body>
         <!-- insetar un canvas como elemento HTML -->
@@ -39,9 +41,17 @@
                 <option value="caritas">Caritas</option>
             </select>
             </p>     
+            <p>
+              <label for="tweets">Tweets</label>
+              <select id="tweets">
+              </select>
+           </p>
             <p> 
-            <input type="button" id="ver" value="Prever">
-                </p>
-                </form>
+              <input type="button" id="ver" value="Prever">
+            </p>
+         </form>
+         <!-- invocar datos vias JSONP -->
+        <script src="http://tweetshirt.wickedlysmart.com/?callback=actualizarTweets">
+        </script>         
     </body>
 </html>
