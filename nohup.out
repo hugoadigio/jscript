@@ -383,3 +383,35 @@ Leyendo del pipe
 Mapeo de ruta es undefined
 Ruta :htdocs/inputtypes.html true
 Leyendo del pipe 
+/ metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/ true
+/inputtypes.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/inputtypes.html true
+Leyendo del pipe 
+/exp5digitos.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exp5digitos.html true
+Leyendo del pipe 
+/favicon.ico metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/favicon.ico false
+/exptelefono.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exptelefono.html true
+Leyendo del pipe 
+/exptelefono.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exptelefono.html true
+Leyendo del pipe 
+/exptelefono.html? metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exptelefono.html? false
+/exptelefono.html? metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exptelefono.html? false
+/exptelefono.html metodo HTTP:GET
+Mapeo de ruta es undefined
+Ruta :htdocs/exptelefono.html true
+Leyendo del pipe 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>  
+  <head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <meta http-equiv="Content-Script-Type" content="text/javascript">  
+    <script type="text/javascript">  
+      var re = /(?:\d{3}|\(\d{3}\))([-\/\.])\d{3}\1\d{4}/;  
+      function testInfo(phoneInput){  
+        var OK = re.exec(phoneInput.value);  
+        if (!OK)  
+          window.alert(RegExp.input + " El telefono es incorrecto!!!");  
+        else
+          window.alert("Bien!!, Tu telefono es: " + OK[0]);  
+      }  
+    </script>  
+  </head>  
+  <body>  
+    <p>Introduzca su número de teléfono (con el código de área) y haga clic en "Confirmar".
+        <br>TEl formato esperado es como ###-###-####.</p>
+    <form action="#">  
+      <input id="phone"><button onclick="testInfo(document.getElementById('phone'));">Confirmar</button>
+    </form>  
+  </body>  
+</html>

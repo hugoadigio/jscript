@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<script language="JavaScript1.2">
+function checkpostal(){
+var re5digit=/^\d{5}$/ //regular expression defining a 5 digit number
+if (document.myform.myinput.value.search(re5digit)==-1) //if match failed
+alert("Por favor Ingresa 5 digitos en el cuadro de texto ")
+}
+</script>
+</head>
+
+<body>
+Ingresar 5 digitos en el cuadro de texto
+<form name="myform">
+<input type="text" name="myinput" size=15>
+<input type="button" onClick="checkpostal()" value="validar">
+</form>
+</body>
+</html>
